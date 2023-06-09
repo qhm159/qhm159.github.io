@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="http://example.com/2023/06/09/hello-world/"/>
+  <link rel="canonical" href="http://example.com/2023/06/09/docker/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,19 +33,19 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>Hello World - Hexo</title>
+  <title>docker - Hexo</title>
   <meta name="keywords" content="null">
   <meta desc name="description" content="Hexo - John Doe - Hexo">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2023/06/09/hello-world/index.html">
+<meta property="og:title" content="docker">
+<meta property="og:url" content="http://example.com/2023/06/09/docker/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="安装docker1. 在安装docker之前，先初始化机器环境，如果之前安装过旧版本的docker，应该先使用命令进行卸载。（我这里之前没有安装过旧版本的docker，就不进行写在操作了）2. 进行yum源配置。12345678mv&#x2F;etc&#x2F;yum.repos.d&#x2F;CentOS-Base.repo &#x2F;etc&#x2F;yum.repos.d&#x2F;CentOS-Base.repo.backupwget-O&#x2F;etc">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2023-06-09T01:51:12.923Z">
-<meta property="article:modified_time" content="2023-06-09T01:51:12.923Z">
+<meta property="article:published_time" content="2023-06-09T08:14:34.777Z">
+<meta property="article:modified_time" content="2023-06-09T10:24:39.415Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -2442,7 +2442,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/09/hello-world/">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/09/docker/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Hexo">
   </span>
@@ -2463,7 +2463,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        Hello World
+        docker
       </h1>
       <div class='new-meta-box'>
         
@@ -2485,7 +2485,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-06-09T09:51:12+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-06-09T16:14:34+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：Jun 9, 2023</p>
@@ -2511,19 +2511,84 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <h1 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h1><h2 id="1-在安装docker之前，先初始化机器环境，如果之前安装过旧版本的docker，应该先使用命令进行卸载。（我这里之前没有安装过旧版本的docker，就不进行写在操作了）"><a href="#1-在安装docker之前，先初始化机器环境，如果之前安装过旧版本的docker，应该先使用命令进行卸载。（我这里之前没有安装过旧版本的docker，就不进行写在操作了）" class="headerlink" title="1. 在安装docker之前，先初始化机器环境，如果之前安装过旧版本的docker，应该先使用命令进行卸载。（我这里之前没有安装过旧版本的docker，就不进行写在操作了）"></a>1. 在安装docker之前，先初始化机器环境，如果之前安装过旧版本的docker，应该先使用命令进行卸载。（我这里之前没有安装过旧版本的docker，就不进行写在操作了）</h2><h2 id="2-进行yum源配置。"><a href="#2-进行yum源配置。" class="headerlink" title="2. 进行yum源配置。"></a>2. 进行yum源配置。</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">mv/etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup</span><br><span class="line">wget-O/etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo</span><br><span class="line"></span><br><span class="line">wget-O/etc/yum.repos.d/epel.repo</span><br><span class="line"></span><br><span class="line">`   `&lt;http://mirrors.aliyun.com/repo/epel-7.repo&gt;</span><br><span class="line">yum clean all</span><br><span class="line">yum makecache</span><br></pre></td></tr></table></figure>
+<h2 id="3-安装docker，首先需要虚拟机联网，安装yum工具"><a href="#3-安装docker，首先需要虚拟机联网，安装yum工具" class="headerlink" title="3. 安装docker，首先需要虚拟机联网，安装yum工具"></a>3. 安装docker，首先需要虚拟机联网，安装yum工具</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yum install -y yum-utils \</span><br><span class="line">`device-mapper-persistent-data \</span><br><span class="line">lvm2--skip-broken</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/30.JPG" class="lazyload" data-srcset="/../images/30.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 30"></p>
+<h2 id="4-配置网卡转发。"><a href="#4-配置网卡转发。" class="headerlink" title="4. 配置网卡转发。"></a>4. 配置网卡转发。</h2><h3 id="1-docker必须安装在centos7平台，内核版本不低于3-10在centos平台运行docker可能会遇见些告警信息，修改内核配置参数，打开内核转发功能"><a href="#1-docker必须安装在centos7平台，内核版本不低于3-10在centos平台运行docker可能会遇见些告警信息，修改内核配置参数，打开内核转发功能" class="headerlink" title="#1.docker必须安装在centos7平台，内核版本不低于3.10在centos平台运行docker可能会遇见些告警信息，修改内核配置参数，打开内核转发功能"></a>#1.docker必须安装在centos7平台，内核版本不低于3.10在centos平台运行docker可能会遇见些告警信息，修改内核配置参数，打开内核转发功能</h3><p> 写入<br>cat &lt;<EOF > &#x2F;etc&#x2F;sysctl.d&#x2F;docker.conf<br>net.bridge.bridge-nf-call-ip6tables &#x3D; 1<br>net.bridge.bridge-nf-call-iptables &#x3D; 1<br>net.ipv4.conf.default.rp_filter &#x3D; 0<br>net.ipv4.conf.all.rp_filter &#x3D; 0<br>net.ipv4.ip_forward&#x3D;1<br>EOF<br><img src="/../images/31.JPG" class="lazyload" data-srcset="/../images/31.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 31"></p>
+<h3 id="2-重新加载内核参数"><a href="#2-重新加载内核参数" class="headerlink" title="#2.重新加载内核参数"></a>#2.重新加载内核参数</h3><p>modprobe br_netfilter<br>sysctl -p &#x2F;etc&#x2F;sysctl.d&#x2F;docker.conf<br><img src="/../images/32.JPG" class="lazyload" data-srcset="/../images/32.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 32"></p>
+<h2 id="5-利用yum进行docker安装"><a href="#5-利用yum进行docker安装" class="headerlink" title="5. 利用yum进行docker安装"></a>5. 利用yum进行docker安装</h2><p># 提前配置好yum仓库</p>
+<p># 1.阿里云自带仓库 2.阿里云提供的docker专属repo仓库</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl-o/etc/yum.repos.d/docker-ce.repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</span><br><span class="line">cur-o/etc/yum.repos.d/Centos-7.repo </span><br></pre></td></tr></table></figure>
+<p><img src="/../images/33.JPG" class="lazyload" data-srcset="/../images/33.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 33"><br>#更新yum缓存<br><img src="/../images/34.JPG" class="lazyload" data-srcset="/../images/34.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 34"><br>#可以直接yum安装docker了</p>
+<p>## 查看源中可用版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum list docker-ce --showduplicates | sort -r</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/35.JPG" class="lazyload" data-srcset="/../images/35.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 35"><br>## yum安装</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install docker-ce -y</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/36.JPG" class="lazyload" data-srcset="/../images/36.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 36"><br>##查看docker版本，验证是否验证成功</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker -v</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/37.JPG" class="lazyload" data-srcset="/../images/37.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 37"></p>
+<h2 id="6-配置镜像加速器"><a href="#6-配置镜像加速器" class="headerlink" title="6.配置镜像加速器"></a>6.配置镜像加速器</h2><p>#用于加速镜像文件下载,选用阿里云镜像站</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p /etc/docker</span><br><span class="line">touch /etc/docker/daemon.json</span><br><span class="line">vim /etc/docker/daemon.json</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&quot;registry-mirrors&quot; : [</span><br><span class="line">&quot;https://8xpk5wnt.mirror.aliyuncs.com&quot;</span><br><span class="line"></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/38.JPG" class="lazyload" data-srcset="/../images/38.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 38"></p>
+<h3 id="启动docker"><a href="#启动docker" class="headerlink" title="启动docker"></a>启动docker</h3><p>#启动docker前，一定要关闭防火墙后！！</p>
+<p># 关闭</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld</span><br></pre></td></tr></table></figure>
+<p># 禁止开机启动防火墙</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl disable firewalld</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/39.JPG" class="lazyload" data-srcset="/../images/39.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 39"></p>
+<p>## 查看docker信息</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker info</span><br><span class="line">docker ps</span><br><span class="line">docker images</span><br><span class="line">docker version</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/40.JPG" class="lazyload" data-srcset="/../images/40.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 40"><br><img src="/../images/41.JPG" class="lazyload" data-srcset="/../images/41.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 41"><br><img src="/../images/42.JPG" class="lazyload" data-srcset="/../images/42.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 42"><br><img src="/../images/43.JPG" class="lazyload" data-srcset="/../images/43.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 43"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">\## docker-client</span><br><span class="line">which docker</span><br><span class="line">\## docker daemon</span><br><span class="line">ps aux |grep docker</span><br><span class="line">\## containerd</span><br><span class="line">ps aux|grep containerd</span><br><span class="line">systemctl status containerd</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/44.JPG" class="lazyload" data-srcset="/../images/44.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 44"><br><img src="/../images/45.JPG" class="lazyload" data-srcset="/../images/45.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 45"><br><img src="/../images/46.JPG" class="lazyload" data-srcset="/../images/46.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"></p>
+<h2 id="7-docker初体验"><a href="#7-docker初体验" class="headerlink" title="7. docker初体验"></a>7. docker初体验</h2><p>#1.查看本地的docker镜像有哪些</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker image ls 或 docker images</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/47.JPG" class="lazyload" data-srcset="/../images/47.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 47"><br>#2.可选择删除旧版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi 镜像id</span><br></pre></td></tr></table></figure>
+<p>#3.搜索一下远程仓库中的镜像文件是否存在</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker search nginx</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/48.JPG" class="lazyload" data-srcset="/../images/48.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 48"><br>#4.拉取，下载镜像</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docerk pull nginx</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/49.JPG" class="lazyload" data-srcset="/../images/49.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 49"><br>#5.再次查看镜像</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker images</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/50.JPG" class="lazyload" data-srcset="/../images/50.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 50"><br>#6.运行镜像，运行出具体内容，在容器中就跑着一个nginx服务</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">docker run 参数 镜像的名字/id</span><br><span class="line">#-d 后台运行容器</span><br><span class="line">#-p 80:80 端口映射，宿主机端口：容器内端口，访问宿主机的80端口，也就访问到容器中的80端口</span><br><span class="line">docker run -d -p 80:80 nginx</span><br><span class="line">#会返回一个容器的id</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/51.JPG" class="lazyload" data-srcset="/../images/51.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>#7.查看容器是否在运行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/52.JPG" class="lazyload" data-srcset="/../images/52.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>#8.访问网站</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">192\.168.88.163:80</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/53.JPG" class="lazyload" data-srcset="/../images/53.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>#9.停止容器</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker stop 容器id</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/54.JPG" class="lazyload" data-srcset="/../images/54.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>#10.恢复容器<br><img src="/../images/55.JPG" class="lazyload" data-srcset="/../images/55.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"></p>
+<h2 id="用docker切换不同发行版本，内核都为宿主机内核"><a href="#用docker切换不同发行版本，内核都为宿主机内核" class="headerlink" title="用docker切换不同发行版本，内核都为宿主机内核"></a>用docker切换不同发行版本，内核都为宿主机内核</h2><p>#1.利用docker获取不同的发行版镜像<br><img src="/../images/56.JPG" class="lazyload" data-srcset="/../images/56.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><img src="/../images/57.JPG" class="lazyload" data-srcset="/../images/57.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>#2.确认当前宿主机的发行版<br><img src="/../images/58.JPG" class="lazyload" data-srcset="/../images/58.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>#3.运行centos:7.8.2003发行版本</p>
+<p>#运行容器，且进入容器内部</p>
+<p>#参数解释，-i 交互式命令操作 -t 开启一个终端 bash 进入容器后执行的命令<br><img src="/../images/59.JPG" class="lazyload" data-srcset="/../images/59.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>#5.退出容器空间</p>
+<p>1.一个完整的系统，是由linux的内核+发行版，才组成了一个可以使用的完整的系统</p>
+<p>2.利用docker容器，可以获取不同的发行版镜像，然后基于该镜像，运行出各种容器去使用</p>
+<p><strong>案例</strong></p>
+<p>进入容器并修改文件</p>
+<p>进入容器，进入创建的nginx容器<br><img src="/../images/60.JPG" class="lazyload" data-srcset="/../images/60.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>进入nginx的HTML所在目录 &#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html</p>
+<p>nginx的环境、配置、运行文件全部都在这个文件系统中，包括我们要修改的html文件</p>
+<p>查看DockerHub网站中的nginx页面，可以知道nginx的html目录位置在&#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html</p>
+<p>我们执行命令，进入该目录<br><img src="/../images/61.JPG" class="lazyload" data-srcset="/../images/61.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>容器内没有vi命令，无法直接修改，我们用下面的命令来修改<br><img src="/../images/62.JPG" class="lazyload" data-srcset="/../images/62.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>在浏览器访问虚拟机地址即可看到结果<br><img src="/../images/63.JPG" class="lazyload" data-srcset="/../images/63.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><strong>创建和查看数据卷</strong></p>
+<p>创建数据卷<br><img src="/../images/64.JPG" class="lazyload" data-srcset="/../images/64.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>查看所有数据<br><img src="/../images/65.JPG" class="lazyload" data-srcset="/../images/65.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>查看数据卷详细信息卷<br><img src="/../images/66.JPG" class="lazyload" data-srcset="/../images/66.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><strong>Docker应用部署</strong></p>
+<p>部署MySQL</p>
+<p>搜索mysql镜像<br><img src="/../images/67.JPG" class="lazyload" data-srcset="/../images/67.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>拉取mysql镜像<br><img src="/../images/68.JPG" class="lazyload" data-srcset="/../images/68.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>创建容器，设置端口映射，目录映射<br><img src="/../images/69.JPG" class="lazyload" data-srcset="/../images/69.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><img src="/../images/70.JPG" class="lazyload" data-srcset="/../images/70.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"></p>
+<p>进入容器操作mysql<br><img src="/../images/71.JPG" class="lazyload" data-srcset="/../images/71.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><img src="/../images/72.JPG" class="lazyload" data-srcset="/../images/72.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"></p>
+<p>部署Tomcat</p>
+<p>搜索Tomcat镜像<br><img src="/../images/73.JPG" class="lazyload" data-srcset="/../images/73.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>拉取Tomcat镜像<br><img src="/../images/74.JPG" class="lazyload" data-srcset="/../images/74.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><img src="/../images/75.JPG" class="lazyload" data-srcset="/../images/75.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"></p>
+<p>创建容器，设置端口映射，目录映射</p>
+<p># 在&#x2F;root目录下创建tomcat目录用于存储tomcat数据信息<br><img src="/../images/76.JPG" class="lazyload" data-srcset="/../images/76.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><img src="/../images/77.JPG" class="lazyload" data-srcset="/../images/77.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>进入容器<br><img src="/../images/78.JPG" class="lazyload" data-srcset="/../images/78.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>部署Nginx</p>
+<p>搜索Nginx镜像<br><img src="/../images/79.JPG" class="lazyload" data-srcset="/../images/79.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>拉取Nginx镜像<br><img src="/../images/80.JPG" class="lazyload" data-srcset="/../images/80.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>创建容器，设置端口映射，目录映射</p>
+<p># 在&#x2F;root目录下创建nginx目录用于存储nginx数据信息</p>
+<p># 在~&#x2F;nginx&#x2F;conf&#x2F;下创建nginx.conf文件,粘贴下面内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">user  nginx;</span><br><span class="line">worker_processes  1;</span><br><span class="line">error_log  /var/log/nginx/error.log warn;</span><br><span class="line">pid        /var/run/nginx.pid;</span><br><span class="line">events &#123;</span><br><span class="line">    worker_connections  1024;</span><br><span class="line">&#125;</span><br><span class="line">http &#123;</span><br><span class="line">    include       /etc/nginx/mime.types;</span><br><span class="line">    default_type  application/octet-stream;</span><br><span class="line"></span><br><span class="line">    log_format  main  &#x27;$remote_addr - $remote_user [$time_local] &quot;$request&quot; &#x27;</span><br><span class="line">                      &#x27;$status $body_bytes_sent &quot;$http_referer&quot; &#x27;</span><br><span class="line">                      &#x27;&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;&#x27;;</span><br><span class="line">    access_log  /var/log/nginx/access.log  main;</span><br><span class="line">    sendfile        on;</span><br><span class="line">    #tcp_nopush     on;</span><br><span class="line">    keepalive_timeout  65;</span><br><span class="line">    #gzip  on;</span><br><span class="line">    include /etc/nginx/conf.d/*.conf;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/../images/81.JPG" class="lazyload" data-srcset="/../images/81.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><img src="/../images/82.JPG" class="lazyload" data-srcset="/../images/82.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>部署redis</p>
+<p>搜索Redis镜像<br><img src="/../images/83.JPG" class="lazyload" data-srcset="/../images/83.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>拉取Redis镜像<br><img src="/../images/84.JPG" class="lazyload" data-srcset="/../images/84.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>创建容器，设置映射端口<br><img src="/../images/85.JPG" class="lazyload" data-srcset="/../images/85.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><img src="/../images/86.JPG" class="lazyload" data-srcset="/../images/86.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><strong>安装DockerCompos</strong></p>
+<p>通过命令下载<br><img src="/../images/87.JPG" class="lazyload" data-srcset="/../images/87.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>修改文件权限：<br><img src="/../images/88.JPG" class="lazyload" data-srcset="/../images/88.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><img src="/../images/89.JPG" class="lazyload" data-srcset="/../images/89.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>如果这里出现错误，需要修改hosts文件：<br><img src="/../images/90.JPG" class="lazyload" data-srcset="/../images/90.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>修改后在执行即可</p>
+<p><strong>Docker镜像仓库</strong> </p>
+<p>搭建简化版镜像仓库<br><img src="/../images/91.JPG" class="lazyload" data-srcset="/../images/91.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br><strong>配置docker信任地址</strong></p>
+<p>私服采用的是http协议，默认不被Docker信任，所以需要做一个配置<br><img src="/../images/92.JPG" class="lazyload" data-srcset="/../images/92.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"><br>重启docker<br><img src="/../images/93.JPG" class="lazyload" data-srcset="/../images/93.JPG" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 46"></p>
 
   </div>
   
@@ -2548,7 +2613,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-06-09T09:51:12+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-06-09T18:24:39+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：Jun 9, 2023</p>
@@ -2570,7 +2635,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/06/09/hello-world/&title=Hello World - Hexo&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/06/09/docker/&title=docker - Hexo&summary="
           
           >
           
@@ -2582,7 +2647,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/06/09/hello-world/&title=Hello World - Hexo&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/06/09/docker/&title=docker - Hexo&summary="
           
           >
           
@@ -2594,7 +2659,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/06/09/hello-world/&title=Hello World - Hexo&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/06/09/docker/&title=docker - Hexo&summary="
           
           >
           
@@ -2627,11 +2692,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
-        <a class='prev' href='/2023/06/09/hive/'>
-          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>Hive</p>
-          <p class='content'>hive 安装(1)myaql的部署1.下载并安装MySQL官方的 Yum Repository：1#wget-i-chttp://dev.mysql.com/get/mysql57-commu...</p>
+        <a class='prev' href='/2023/06/09/spark%EF%BC%88StandAlone%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%EF%BC%89/'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>spark（StandAlone环境部署）</p>
+          <p class='content'>spark（StandAlone环境部署）进入到spark的配置文件目录中, cd  spark&#x2F;conf
+配置workers文件:
+改名, 去掉后面的.template后缀
+1mv ...</p>
         </a>
       
+      
+        <a class='next' href='/2023/06/09/Git/'>
+          <p class='title'>git<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>Git安装进入git官网https://git-scm.com/进行下载选择适配的操作系统然后开始安装，安装完成后手动重启电脑1.初始化仓库1创建Git版本库创建完毕仓库,此时我们创建的文件夹下...</p>
+        </a>
       
     </div>
   
@@ -2649,7 +2722,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/2023/06/09/hello-world/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2023/06/09/docker/index.html#comments">
     </span>
     <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
@@ -2691,7 +2764,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   <div class='content'>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%9C%A8%E5%AE%89%E8%A3%85docker%E4%B9%8B%E5%89%8D%EF%BC%8C%E5%85%88%E5%88%9D%E5%A7%8B%E5%8C%96%E6%9C%BA%E5%99%A8%E7%8E%AF%E5%A2%83%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%B9%8B%E5%89%8D%E5%AE%89%E8%A3%85%E8%BF%87%E6%97%A7%E7%89%88%E6%9C%AC%E7%9A%84docker%EF%BC%8C%E5%BA%94%E8%AF%A5%E5%85%88%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4%E8%BF%9B%E8%A1%8C%E5%8D%B8%E8%BD%BD%E3%80%82%EF%BC%88%E6%88%91%E8%BF%99%E9%87%8C%E4%B9%8B%E5%89%8D%E6%B2%A1%E6%9C%89%E5%AE%89%E8%A3%85%E8%BF%87%E6%97%A7%E7%89%88%E6%9C%AC%E7%9A%84docker%EF%BC%8C%E5%B0%B1%E4%B8%8D%E8%BF%9B%E8%A1%8C%E5%86%99%E5%9C%A8%E6%93%8D%E4%BD%9C%E4%BA%86%EF%BC%89"><span class="toc-text">1. 在安装docker之前，先初始化机器环境，如果之前安装过旧版本的docker，应该先使用命令进行卸载。（我这里之前没有安装过旧版本的docker，就不进行写在操作了）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%BF%9B%E8%A1%8Cyum%E6%BA%90%E9%85%8D%E7%BD%AE%E3%80%82"><span class="toc-text">2. 进行yum源配置。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%AE%89%E8%A3%85docker%EF%BC%8C%E9%A6%96%E5%85%88%E9%9C%80%E8%A6%81%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%81%94%E7%BD%91%EF%BC%8C%E5%AE%89%E8%A3%85yum%E5%B7%A5%E5%85%B7"><span class="toc-text">3. 安装docker，首先需要虚拟机联网，安装yum工具</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E9%85%8D%E7%BD%AE%E7%BD%91%E5%8D%A1%E8%BD%AC%E5%8F%91%E3%80%82"><span class="toc-text">4. 配置网卡转发。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-docker%E5%BF%85%E9%A1%BB%E5%AE%89%E8%A3%85%E5%9C%A8centos7%E5%B9%B3%E5%8F%B0%EF%BC%8C%E5%86%85%E6%A0%B8%E7%89%88%E6%9C%AC%E4%B8%8D%E4%BD%8E%E4%BA%8E3-10%E5%9C%A8centos%E5%B9%B3%E5%8F%B0%E8%BF%90%E8%A1%8Cdocker%E5%8F%AF%E8%83%BD%E4%BC%9A%E9%81%87%E8%A7%81%E4%BA%9B%E5%91%8A%E8%AD%A6%E4%BF%A1%E6%81%AF%EF%BC%8C%E4%BF%AE%E6%94%B9%E5%86%85%E6%A0%B8%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%EF%BC%8C%E6%89%93%E5%BC%80%E5%86%85%E6%A0%B8%E8%BD%AC%E5%8F%91%E5%8A%9F%E8%83%BD"><span class="toc-text">#1.docker必须安装在centos7平台，内核版本不低于3.10在centos平台运行docker可能会遇见些告警信息，修改内核配置参数，打开内核转发功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E9%87%8D%E6%96%B0%E5%8A%A0%E8%BD%BD%E5%86%85%E6%A0%B8%E5%8F%82%E6%95%B0"><span class="toc-text">#2.重新加载内核参数</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%88%A9%E7%94%A8yum%E8%BF%9B%E8%A1%8Cdocker%E5%AE%89%E8%A3%85"><span class="toc-text">5. 利用yum进行docker安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E9%85%8D%E7%BD%AE%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E5%99%A8"><span class="toc-text">6.配置镜像加速器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8docker"><span class="toc-text">启动docker</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-docker%E5%88%9D%E4%BD%93%E9%AA%8C"><span class="toc-text">7. docker初体验</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%A8docker%E5%88%87%E6%8D%A2%E4%B8%8D%E5%90%8C%E5%8F%91%E8%A1%8C%E7%89%88%E6%9C%AC%EF%BC%8C%E5%86%85%E6%A0%B8%E9%83%BD%E4%B8%BA%E5%AE%BF%E4%B8%BB%E6%9C%BA%E5%86%85%E6%A0%B8"><span class="toc-text">用docker切换不同发行版本，内核都为宿主机内核</span></a></li></ol>
   </div>
 </section>
 
@@ -3185,7 +3258,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Hexo","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Hexo"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/06/09/hello-world/","name":"Hello World"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Hexo","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"Hexo","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hello World","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/06/09/hello-world/"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Hexo","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/06/09/hello-world/","wordCount":0,"datePublished":"2023-06-09T01:51:12.923Z","dateModified":"2023-06-09T01:51:12.923Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Hexo","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Hexo"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/06/09/docker/","name":"docker"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Hexo","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"Hexo","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"docker","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/06/09/docker/"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Hexo","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/06/09/docker/","wordCount":0,"datePublished":"2023-06-09T08:14:34.777Z","dateModified":"2023-06-09T10:24:39.415Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
